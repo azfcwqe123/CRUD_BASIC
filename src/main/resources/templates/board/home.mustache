@@ -1,0 +1,20 @@
+{{>layouts/header}}
+
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th scope="col">번호</th>
+        <th scope="col">제목</th>
+        <th scope="col">내용</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#PostList}}
+        <tr>
+            <td><a href="/home/{{id}}">{{id}}</td>
+            <td>{{title}}</a></td>
+            <td>{{content}}</td>
+        </tr>
+    {{/PostList}}
+    </tbody>
+</table>
