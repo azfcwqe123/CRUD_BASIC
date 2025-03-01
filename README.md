@@ -45,5 +45,5 @@
 
 ### 다시 돌리기 클릭
 ![image](https://github.com/user-attachments/assets/9c210fb7-0f12-4114-bf36-523edad00c4d)
-
+ps. 왼쪽 상단에 있는 CRUD 게시판 글자를 클릭하면 홈 화면으로 돌아감
 
